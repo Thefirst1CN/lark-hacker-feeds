@@ -1,5 +1,5 @@
 
-const OneDayMillSeconds = 100;
+const OneDayMillSeconds = 10;
 
 function getAfterNDayDate(time, n) {
   const afterDayDate = new Date(new Date(time).getTime() + OneDayMillSeconds * n);
